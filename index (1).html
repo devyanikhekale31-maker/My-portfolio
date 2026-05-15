@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<title>Devyani Khekale — Computer Engineering Student & Blockchain Developer</title>
+<meta name="description" content="Portfolio of Devyani Khekale — Computer Engineering student and beginner Blockchain Developer. Projects, skills, certificates and more." />
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- Animated background blobs -->
+<div class="bg-blobs" aria-hidden="true">
+  <span class="blob blob-1"></span>
+  <span class="blob blob-2"></span>
+  <span class="blob blob-3"></span>
+</div>
+<canvas id="particles" aria-hidden="true"></canvas>
+
+<!-- Navbar -->
+<header class="navbar glass" id="navbar">
+  <a href="#home" class="logo">DK<span>.</span></a>
+  <nav>
+    <ul class="nav-links">
+      <li><a href="#home">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li><a href="#skills">Skills</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#experience">Experience</a></li>
+      <li><a href="#extracurricular">Extra</a></li>
+      <li><a href="#certificates">Certificates</a></li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+  </nav>
+  <div class="nav-actions">
+    <button id="theme-toggle" aria-label="Toggle theme">🌙</button>
+    <button id="menu-toggle" aria-label="Open menu">☰</button>
+  </div>
+</header>
+
+<!-- HERO -->
+<section id="home" class="hero">
+  <div class="hero-inner">
+    <div class="hero-text reveal">
+      <p class="eyebrow">Hello world 👋</p>
+      <h1>Hi, I'm <span class="gradient-text">Devyani Khekale</span></h1>
+      <h2>I'm a <span id="typed" class="typed"></span><span class="caret">|</span></h2>
+      <p class="lead">A passionate Computer Engineering student exploring the world of Blockchain, building futuristic digital experiences and crafting clean, beautiful interfaces.</p>
+      <div class="hero-cta">
+        <a href="#projects" class="btn btn-primary">View Projects</a>
+        <a href="#contact" class="btn btn-ghost">Contact Me</a>
+      </div>
+    </div>
+    <div class="hero-visual reveal">
+      <div class="orb">
+        <div class="orb-glow"></div>
+        <div class="chip chip-1">Solidity</div>
+        <div class="chip chip-2">React</div>
+        <div class="chip chip-3">Web3</div>
+        <div class="chip chip-4">UI/UX</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ABOUT -->
+<section id="about" class="section">
+  <div class="container">
+    <p class="section-eyebrow">01 — About</p>
+    <h2 class="section-title">A little about me</h2>
+    <div class="about-grid">
+      <div class="glass card reveal">
+        <p>I'm Devyani Khekale, a Computer Engineering student who fell in love with code, design, and the limitless possibilities of Web3. I enjoy turning abstract ideas into polished, user-friendly products.</p>
+        <p>Beyond engineering, I sing, write songs, and lead creative projects — including the Firodiya 2026 winning team <strong>Cinema Kesari</strong>.</p>
+      </div>
+      <div class="glass card reveal stats">
+        <div><h3>5+</h3><p>Projects</p></div>
+        <div><h3>4</h3><p>Certificates</p></div>
+        <div><h3>1</h3><p>Hackathon Win</p></div>
+        <div><h3>∞</h3><p>Curiosity</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- SKILLS -->
+<section id="skills" class="section">
+  <div class="container">
+    <p class="section-eyebrow">02 — Skills</p>
+    <h2 class="section-title">What I work with</h2>
+    <div class="skills-grid"></div>
+  </div>
+</section>
+
+<!-- PROJECTS -->
+<section id="projects" class="section">
+  <div class="container">
+    <p class="section-eyebrow">03 — Projects</p>
+    <h2 class="section-title">Selected work</h2>
+    <div class="projects-grid"></div>
+  </div>
+</section>
+
+<!-- EXPERIENCE -->
+<section id="experience" class="section">
+  <div class="container">
+    <p class="section-eyebrow">04 — Experience</p>
+    <h2 class="section-title">Workshops & Hackathons</h2>
+    <ul class="timeline">
+      <li class="reveal"><h3>Blockchain Workshop</h3><p>Hands-on training in smart contracts, Solidity and decentralized application architecture.</p></li>
+      <li class="reveal"><h3>Hackathon Participant</h3><p>Built rapid prototypes with cross-functional teams, focusing on web3 + IoT solutions.</p></li>
+      <li class="reveal"><h3>UI/UX Design Sprint</h3><p>Designed interactive prototypes following modern product design workflows.</p></li>
+    </ul>
+  </div>
+</section>
+
+<!-- EXTRACURRICULAR -->
+<section id="extracurricular" class="section">
+  <div class="container">
+    <p class="section-eyebrow">05 — Extracurricular</p>
+    <h2 class="section-title">Beyond the code</h2>
+    <div class="extra-grid">
+      <div class="glass card reveal feature">
+        <h3>🏆 Cinema Kesari — Firodiya 2026 Winners</h3>
+        <p>Lead singer and songwriter of <strong>Cinema Kesari</strong>, the winning team of Firodiya 2026. Led musical direction, wrote original lyrics, and performed live on stage in front of a huge audience.</p>
+      </div>
+      <div class="glass card reveal"><h3>🎤 Performing Arts</h3><p>Active vocalist and stage performer — comfortable performing solo and leading group acts.</p></div>
+      <div class="glass card reveal"><h3>✍️ Creative Writing</h3><p>Songwriter exploring storytelling through lyrics and narrative-driven performances.</p></div>
+    </div>
+  </div>
+</section>
+
+<!-- CERTIFICATES -->
+<section id="certificates" class="section">
+  <div class="container">
+    <p class="section-eyebrow">06 — Certificates</p>
+    <h2 class="section-title">Online courses completed</h2>
+    <div class="cert-grid">
+      <div class="glass card reveal cert"><h3>Claude 101</h3><p>Anthropic — Foundations of working with Claude.</p></div>
+      <div class="glass card reveal cert"><h3>AI Fluency Framework</h3><p>Anthropic — Core framework for using AI responsibly.</p></div>
+      <div class="glass card reveal cert"><h3>AI Fluency for Students</h3><p>Anthropic — AI literacy tailored for students.</p></div>
+      <div class="glass card reveal cert"><h3>AI Fluency for Nonprofits</h3><p>Anthropic — Applying AI in nonprofit contexts.</p></div>
+    </div>
+    <p class="muted-note">📎 Original certificate images can be added to an <code>assets/</code> folder and embedded as &lt;img&gt; if desired.</p>
+  </div>
+</section>
+
+<!-- CONTACT -->
+<section id="contact" class="section">
+  <div class="container">
+    <p class="section-eyebrow">07 — Contact</p>
+    <h2 class="section-title">Let's build something</h2>
+    <div class="contact-grid">
+      <form class="glass card reveal" id="contact-form">
+        <label>Name<input type="text" required placeholder="Your name" /></label>
+        <label>Email<input type="email" required placeholder="you@example.com" /></label>
+        <label>Message<textarea rows="4" required placeholder="Say hi…"></textarea></label>
+        <button type="submit" class="btn btn-primary">Send Message</button>
+        <p id="form-status" class="form-status"></p>
+      </form>
+      <div class="glass card reveal socials">
+        <h3>Find me online</h3>
+        <a href="https://github.com/devyanikhekale31-maker" target="_blank" rel="noreferrer">GitHub →</a>
+        <a href="https://www.linkedin.com/" target="_blank" rel="noreferrer">LinkedIn →</a>
+        <a href="mailto:devyani@example.com">Email →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© <span id="year"></span> Devyani Khekale — Crafted with ✨ HTML, CSS & JS</p>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
